@@ -1,0 +1,65 @@
+.header-banner{
+    font-family: 'Merriweather', serif;
+    display: flex;   
+}
+
+body{
+    background-image: url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+}
+.gradient{
+   
+    
+    background: linear-gradient(180deg, #000005d9 0%, rgba(217, 216, 218, 0.034) 100%);
+
+}
+    
+.wish{
+    color:white;
+    font-size: 30px;
+    padding-top: 200px;
+    padding-left: 500px; 
+    font-style: normal;
+    
+}
+
+.event{
+    color: white;
+    font-size: 50px;
+    padding-left: 400px;
+}
+.event1{
+    color: white;
+    font-size: 50px;
+    padding-left: 400px;   
+}
+.dis{   
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: red;
+    padding-top: 20px;
+}
+.dis1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+}
+.cat{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;    
+}
+.pic{
+    background-image: url(images/New\ Year\ Photo.png);
+    background-position: center;
+    padding-top: 600px;
+    background-repeat: no-repeat;
+}
