@@ -122,7 +122,8 @@ body{
 
 
 .two{
-    padding: 30px 40px;
+    border: solid red 2px;
+    margin: 30px 40px;
 }
 .card{
     
@@ -147,11 +148,13 @@ body{
     color: #FFF;
 }
 .whole{
+    border: solid red 2px ;
     display: flex;
     background-color: #FFF;
     justify-content: space-around;
     justify-content: center;
-    padding-top: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .txt{
     
@@ -214,6 +217,48 @@ body{
     font-size: 16px;
     line-height: 32px; /* 160% */
 }
-.p6{
 
+.photos{
+    display: flex;
+}
+.first{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.second{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.detail{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+ul{
+    list-style: none;
+    display:block
+    
+}
+.i{
+   display: flex;
+   block-size: 300px;
+   box-sizing: border-box;
+   cursor: pointer;
+   transition: transform .2s;
+      
+}
+.i:hover{
+    transform: scaleX(.75);
+    background-color:black;
+}
+main {
+    border: solid red 2px;
+    margin: 70px 10px ;
 }
