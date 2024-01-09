@@ -331,3 +331,62 @@ main {
     height: 100px;
     flex-shrink: 0;
 }
+.contact{
+    margin-top:70px ;
+    padding-right: 40px;
+    padding-left: 120px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #070211;
+    color: #FFF;
+}
+.cont{
+    display: inline-flex;
+}
+.add-con{
+    display:flex;
+    justify-items: space-between;
+    padding-bottom: 20px;
+}
+.pic2{
+    width: 2px;
+    height: 2px;
+    padding-left: 400px;
+}
+.address{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;    
+}
+.num{
+ 
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;/* 166.667% */
+}
+.soc-ic{
+    display: inline-flex;
+    
+}
+.s-ic{
+    padding-left: 400px;
+}
+
+.cp{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cp1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;  
+}
+
+.cp2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    
+    margin-right: 20px;
+}
