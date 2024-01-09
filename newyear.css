@@ -133,6 +133,7 @@ body{
     text-transform: capitalize;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .red{
     color: #F00;
@@ -144,4 +145,75 @@ body{
     border-radius: 4px;
     padding: 8px;
     color: #FFF;
+}
+.whole{
+    display: flex;
+    background-color: #FFF;
+    justify-content: space-around;
+    justify-content: center;
+    padding-top: 70px;
+}
+.txt{
+    
+    padding-right: 60px;
+    padding-left: 30px;
+
+}
+.ig{
+    margin-right:70px;
+    border-radius: 50%;
+    border: solid 14px;
+    padding: 20px;
+    border-color: #F00;
+    
+    
+
+    
+    
+}
+#pht{
+    width: 360px;
+    height: 360px;
+    flex-shrink: 0;  
+    
+
+}
+.yr2{
+    margin:15px;
+}
+.p1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: normal;
+}
+.p2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.p3{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 32px; /* 160% */
+}
+.p4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.p5{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 32px; /* 160% */
+}
+.p6{
+
 }
